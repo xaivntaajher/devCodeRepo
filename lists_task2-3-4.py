@@ -1,0 +1,10 @@
+names = ['Nevin','Mike','Jake','Danimal','Megan']
+print(names)
+names.append('Dan')
+names.append('James')
+names.append('John-Boy')
+print(names)
+last_element = names.pop()
+print(names)
+names.remove('Mike')
+print(names)
